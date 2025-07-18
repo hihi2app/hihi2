@@ -92,7 +92,7 @@ main {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #1e3c720%, #2a5298 50%, #1e3c72 100%);
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #1e3c72 100%);
     color: white;
     padding: 4rem 0;
     min-height: 70vh;
