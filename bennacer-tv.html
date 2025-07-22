@@ -57,7 +57,32 @@
       margin: 0;
       font-size: 26px;
     }
+.navbar {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
 
+    .navbar li {
+      display: inline-block;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 14px;
+      border-radius: 6px;
+      transition: background-color 0.2s ease;
+    }
+
+    .navbar a:hover {
+      background-color: #c4a209;
+    }
     main {
       max-width: 800px;
       margin: 30px auto;
@@ -101,6 +126,13 @@
 
   <header>
     <h1>تحميل تطبيق Bennacer TV لمشاهدة المباريات والقنوات المشفرة مجانا : تطبيق بناصر تيفي برو</h1>
+     <nav>
+      <ul class="navbar">
+        <li><a href="/">الرئيسية</a></li>
+        <li><a href="blog.html">المدونة</a></li>
+        <li><a href="https://hihi2.app/#download" target="_blank">تحميل التطبيق</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
